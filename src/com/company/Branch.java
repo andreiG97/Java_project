@@ -16,8 +16,8 @@ public class Branch {
         return this.name;
     }
 
-    public String getCustomersList() {
-        return customersList.toString();
+    public ArrayList<Customer> getCustomersList() {
+        return customersList;
     }
 
     public boolean addNewCustomer(String customerName, double initialAmount ){
